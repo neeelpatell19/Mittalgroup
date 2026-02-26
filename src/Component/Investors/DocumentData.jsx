@@ -1,7 +1,7 @@
 const DocumentData = {
   "Issuer Company": {
     MSL: {
-      "Annual Return for (2019-2023) years": {
+      "Annual Returns": {
         MGT1920: {
           title: "Annual Return (2019-20)",
           filePath: "/Documents/MSL/Annual Return/MGT-7 2019-20.pdf",
@@ -22,8 +22,12 @@ const DocumentData = {
           title: "Annual Return (2023-24)",
           filePath: "/Documents/MSL/Annual Return/MGT-7 2023-24.pdf",
         },
+        MGT2425: {
+          title: "Annual Return (2024-25)",
+          filePath: "/Documents/MSL/Annual Return/MGT-7 2024-25.pdf"
+        }
       },
-      "Annual Report for (2019-2023) years": {
+      "Annual Reports": {
         AR1920: {
           title: "Annual Return (2019-20)",
           filePath: "/Documents/MSL/Annual Reports/Annual Report 2019-20.pdf",
@@ -44,6 +48,10 @@ const DocumentData = {
           title: "Annual Return (2023-24)",
           filePath: "/Documents/MSL/Annual Reports/Annual Report 2023-24.pdf",
         },
+        AR2425: {
+          title: "Annual Return (2024-25)",
+          filePath: "/Documents/MSL/Annual Reports/Annual Report 2024-25.pdf"
+        }
       },
 
       SHP: {
@@ -71,6 +79,112 @@ const DocumentData = {
           title: "SHP 2024-25",
           filePath: "/Documents/MSL/SHP/SHAREHOLDING PATTERN 2024-25.pdf",
         },
+      },
+      "Stock Exchange" : {
+        "Board Meeting" : {
+          BM1: {
+            title: "BDM held on November 14, 2025",
+            filePath: "/Documents/MSL/Stock Exchange/BM/BDM 1.pdf"
+          },
+          BM2 : {
+            title: "BDM held on December 31, 2025",
+            filePath: "/Documents/MSL/Stock Exchange/BM/BDM 2.pdf"
+          },
+          BM3: {
+            title: "BDM held on February 04, 2026",
+            filePath: "/Documents/MSL/Stock Exchange/BM/BDM 3.pdf"
+          }
+        },
+        "Board Meeting Notice" : {
+          BMN: {
+            title: "BDM scheduled to be held on November 14, 2025",
+            filePath: "/Documents/MSL/Stock Exchange/BMN/Intimation of BDM scheduled to be held on November 14, 2025.pdf"
+          }
+        },
+        "SE Compliance" : {
+          SE1: {
+            title: "Corporate Governance Report",
+            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter_Non_Applicable_CGR_Q3_2025-26.pdf"
+          },
+          SE2: {
+            title: "Integrated Governance",
+            filePath: "/Documents/MSL/Stock Exchange/SEC/Integrated Governance_Q3_2025-26.pdf"
+          },
+          SE3: {
+            title: "Reconciliation of Share Capital Audit",
+            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter _RSC_AuditRreport_Q3_2025-26.pdf"
+          },
+          SE4: {
+            title: "Regulation 74(5) - RTA Certificate",
+            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter - Reg74(5)_Q3_2025-26.pdf"
+          },
+          SE5: {
+            title: "Shareholding Pattern",
+            filePath: "/Documents/MSL/Stock Exchange/SEC/Sareholding Pattern_14-10-2025.pdf"
+          }
+        }
+      },
+      "Corporate Information": {
+        corporatedetails: {
+          title: "Corporate Details",
+          filePath: "/Documents/MSL/Corporate Information/Corporate Details.pdf"
+        },
+      },
+      "Board of Directors": {
+        BoardOfDirectors: {
+          title: "Board of Directors",
+          filePath: "/Documents/MSL/Board of Directors/Board of Directors.pdf"
+        }
+      },
+      "Committees" : {
+        Committees: {
+          title: "Committees Details",
+          filePath: "/Documents/MSL/Committees/Committees Details.pdf"
+        }
+      },
+      "List of Key Managerial Personnel" : {
+       Committees: {
+          title: "List of Key Managerial Personnel",
+          filePath: "/Documents/MSL/List of Key Managerial Personnel/List of Key Managerial Personnel.pdf"
+        }
+      },
+      "Financial Result" : {
+        FinancialResult: {
+          title: "Financial Result Half Year 2025",
+          filePath: "/Documents/MSL/Financial Result/FR_Half Year_2025.pdf"
+        }
+      },
+      "Investor Grievances" : {
+        InvestorGrievances: {
+          title: "Investor Grievances",
+          filePath: "/Documents/MSL/Investor Grievances/Investor Grievances.pdf"
+        }
+      },
+      "Corporate Announcement" : {
+        CA1: {
+          title: "Appointment of Secretarial AuditorInternal Auditor Tax Auditor",
+          filePath: "/Documents/MSL/Corporate Announcement/Appointment of Secretarial Auditor_Internal Auditor_Tax Auditor.pdf"
+        },
+        CA2: {
+          title: "BSE Letter",
+          filePath: "/Documents/MSL/Corporate Announcement/BSE_Letter_Reg.30(5).pdf"
+        },
+        CA3: {
+          title: "Change of CIN BSE signed",
+          filePath: "/Documents/MSL/Corporate Announcement/Change of CIN_BSE_signed.pdf"
+        },
+        CA4: {
+          title: "CS Appointment & Resignation",
+          filePath: "/Documents/MSL/Corporate Announcement/CS Appointment & Resignation.pdf"
+        },
+        CA5: {
+          title: "Monitoring Agency Report Q3-2025-26",
+          filePath: "/Documents/MSL/Corporate Announcement/Monitoring Agency Report_Q3-2025-26.pdf"
+        },
+        CA6: {
+          title: "RTA Address Change signed",
+          filePath: "/Documents/MSL/Corporate Announcement/RTA Address Change_signed.pdf"
+        }
       },
       "Corporate Policy": {
         CP1: {
@@ -405,6 +519,26 @@ const DocumentData = {
         },
       },
     },
+    "Montoring Agency Report": {
+      "MontoringAgencyReport" : {
+        MAR: {
+          title: "Montoring Agency Report",
+          filePath: "/Documents/IPO/Montoring Agency Report/Monitoring Agency Report_Q3-2025-26.pdf"
+        }
+      }
+    },
+    "Prospectus": {
+      "Prospectus" : {
+        Prospectus1: {
+          title: "Prospectus BSE",
+          filePath: "/Documents/IPO/Prospectus/Prospectus_BSE.pdf"
+        },
+        Prospectus: {
+          title: "Prospectus ROC",
+          filePath: "/Documents/IPO/Prospectus/Prospectus_ROC.pdf"
+        }
+      }
+    }
   },
   // "Corporate Policy": {
   //     MSL: {
