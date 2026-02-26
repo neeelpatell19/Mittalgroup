@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import './Investors.css';
 import investor from '/images/investors.jpg'
 import "../AboutUs/AboutUs.css";
-import { Row, Col } from 'antd';
+import { Row, Col, Divider } from 'antd';
 import DocumentData from "./DocumentData.jsx";
 import pdfIcon from "/images/pdf.png";
+import { DiJava } from "react-icons/di";
 
 const Investors = () => {
     useEffect(() => {
@@ -37,19 +38,25 @@ const Investors = () => {
             document.documentElement.style.scrollBehavior = ""; // Reset after component unmount
         };
     }, []);
-    const renderDocuments = (data) => {
+    const renderDocuments = (data, level = 0) => {
         const entries = Object.entries(data);
 
         return (
+            <>
             <Row gutter={[16, 16]}>
                 {entries.map(([key, value], index) => {
                     if (typeof value === "object" && !value.title) {
                         return (
                             <Col span={24} key={key}>
-                                <h1 className="InvestorHeadingContainer" ref={(el) => categoryRefs.current[key] = el}>
+                                <h1 className={`InvestorHeadingContainer ${level > 0 ? "subHeading" : ""}`} ref={(el) => categoryRefs.current[key] = el}>
                                     {key}
                                 </h1>
-                                {renderDocuments(value)}
+                                {renderDocuments(value, level + 1)}
+                                {
+                                    level === 0 && (
+                                        <Divider style={{ background: "black"}} />
+                                    )
+                                }
                             </Col>
                         );
                     } else if (typeof value === "object" && value.title) {
@@ -67,6 +74,7 @@ const Investors = () => {
                     }
                 })}
             </Row>
+            </>
         );
     };
 
