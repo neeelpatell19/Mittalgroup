@@ -93,34 +93,78 @@ const DocumentData = {
           BM3: {
             title: "BDM held on February 04, 2026",
             filePath: "/Documents/MSL/Stock Exchange/BM/BDM 3.pdf"
+          },
+          BM4: {
+            title: "Outcome of BDM held on May 29, 2026",
+            filePath: "/Documents/MSL/Stock Exchange/BM/Outcome of BDM held on May 29, 2026.pdf"
           }
         },
         "Board Meeting Notice" : {
           BMN: {
             title: "BDM scheduled to be held on November 14, 2025",
             filePath: "/Documents/MSL/Stock Exchange/BMN/Intimation of BDM scheduled to be held on November 14, 2025.pdf"
+          },
+          BMN2: {
+            title: "BDM scheduled to be held on May 29, 2026",
+            filePath: "/Documents/MSL/Stock Exchange/BMN/Intimation of BDM scheduled to be held on May 29, 2026.pdf"
           }
         },
         "SE Compliance" : {
-          SE1: {
-            title: "Corporate Governance Report",
-            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter_Non_Applicable_CGR_Q3_2025-26.pdf"
+          "Corporate Governance Report": {
+            SE1: {
+              title: "Corporate Governance Report - Q3 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Corporate Governance Report/Letter_Non_Applicable_CGR_Q3_2025-26.pdf"
+            },
+            SE1Q4: {
+              title: "Corporate Governance Report - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Corporate Governance Report/Letter_Non_Applicable_CGR_Q4_2025-26.pdf"
+            }
           },
-          SE2: {
-            title: "Integrated Governance",
-            filePath: "/Documents/MSL/Stock Exchange/SEC/Integrated Governance_Q3_2025-26.pdf"
+          "Integrated Governance": {
+            SE2: {
+              title: "Integrated Governance - Q3 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Integrated Governance/Integrated Governance_Q3_2025-26.pdf"
+            },
+            SE2Q4: {
+              title: "Integrated Governance - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Integrated Governance/Integrated Governance_Q4_2025-26.pdf"
+            }
           },
-          SE3: {
-            title: "Reconciliation of Share Capital Audit",
-            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter _RSC_AuditRreport_Q3_2025-26.pdf"
+          "Reconciliation of Share Capital Audit": {
+            SE3: {
+              title: "Reconciliation of Share Capital Audit - Q3 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Reconciliation of Share Capital Audit/Letter _RSC_AuditRreport_Q3_2025-26.pdf"
+            },
+            SE3Q4: {
+              title: "Reconciliation of Share Capital Audit - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Reconciliation of Share Capital Audit/Letter _RSC_AuditRreport_Q4_2025-26.pdf"
+            }
           },
-          SE4: {
-            title: "Regulation 74(5) - RTA Certificate",
-            filePath: "/Documents/MSL/Stock Exchange/SEC/Letter - Reg74(5)_Q3_2025-26.pdf"
+          "Regulation 74(5) - RTA Certificate": {
+            SE4: {
+              title: "Regulation 74(5) - RTA Certificate - Q3 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Regulation 74(5) - RTA Certificate/Letter - Reg74(5)_Q3_2025-26.pdf"
+            },
+            SE4Q4: {
+              title: "Regulation 74(5) - RTA Certificate - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Regulation 74(5) - RTA Certificate/Letter - Reg74(5)_Q4_2025-26.pdf"
+            }
           },
-          SE5: {
-            title: "Shareholding Pattern",
-            filePath: "/Documents/MSL/Stock Exchange/SEC/Sareholding Pattern_14-10-2025.pdf"
+          "Shareholding Pattern": {
+            SE5: {
+              title: "Shareholding Pattern (14-10-2025)",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Shareholding Pattern/Sareholding Pattern_14-10-2025.pdf"
+            },
+            SE5Q4: {
+              title: "Shareholding Pattern - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Shareholding Pattern/SHP-Q4-rEPORT.pdf"
+            }
+          },
+          "Structured Digital Database": {
+            SDD1: {
+              title: "Structured Digital Database - Q4 2025-26",
+              filePath: "/Documents/MSL/Stock Exchange/SEC/Structured Digital Database/SDD Letter+Certificate - Q-4_2025-26.pdf"
+            }
           }
         }
       },
@@ -152,6 +196,12 @@ const DocumentData = {
         FinancialResult: {
           title: "Financial Result Half Year 2025",
           filePath: "/Documents/MSL/Financial Result/FR_Half Year_2025.pdf"
+        }
+      },
+      "Integrated Financial results" : {
+        IFR1: {
+          title: "Integrated Financial Result Yearly 2025-26",
+          filePath: "/Documents/MSL/Integrated Financial Result/Financial Result_Yearly_2025-26.pdf"
         }
       },
       "Investor Grievances" : {
@@ -522,8 +572,12 @@ const DocumentData = {
     "Montoring Agency Report": {
       "MontoringAgencyReport" : {
         MAR: {
-          title: "Montoring Agency Report",
+          title: "Montoring Agency Report - Q3 2025-26",
           filePath: "/Documents/IPO/Montoring Agency Report/Monitoring Agency Report_Q3-2025-26.pdf"
+        },
+        MAR2: {
+          title: "Montoring Agency Report - Q4 2025-26",
+          filePath: "/Documents/IPO/Montoring Agency Report/Monitoring Agency Report_Q4-2025-26.pdf"
         }
       }
     },
