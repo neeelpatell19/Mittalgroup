@@ -25,6 +25,10 @@ const DocumentData = {
         MGT2425: {
           title: "Annual Return (2024-25)",
           filePath: "/Documents/MSL/Annual Return/MGT-7 2024-25.pdf"
+        },
+        MGT2526: {
+          title: "Annual Return (2025-26)",
+          filePath: "/Documents/MSL/Annual Return/MGT-7 2025-26.pdf"
         }
       },
       "Annual Reports": {
