@@ -174,6 +174,12 @@ const DocumentData = {
               filePath: "/Documents/MSL/Stock Exchange/SEC/Structured Digital Database/SDD Letter+Certificate - Q-4_2025-26.pdf"
             }
           }
+        },
+        "Voting Result and Scrutinizers' Report" : {
+          VRSR1: {
+            title: "Voting Result and Scrutinizers' Report - 17th AGM",
+            filePath: "/Documents/MSL/Stock Exchange/VRSR/Voting Result&Scrutinizer Report_17th AGM_MSL.pdf"
+          }
         }
       },
       "Corporate Information": {
